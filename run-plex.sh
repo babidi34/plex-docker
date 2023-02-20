@@ -1,3 +1,6 @@
+mkdir config
+mkdir data
+
 docker build -t debian-plex .
 
 docker run -tid --name plex \
